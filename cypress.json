@@ -1,0 +1,25 @@
+{   
+    "chromeWebSecurity": false,
+    "baseUrl": "https://formy-project.herokuapp.com/form",
+
+    "env":{
+        
+        "autocompleteUrl": "https://formy-project.herokuapp.com/autocomplete",
+        "buttonsUrl": "https://formy-project.herokuapp.com/buttons",
+        "checkboxUrl": "https://formy-project.herokuapp.com/checkbox",
+        "datepickerUrl":"https://formy-project.herokuapp.com/datepicker",
+        "draganddropUrl": "https://formy-project.herokuapp.com/dragdrop",
+        "dropdownUrl":"https://formy-project.herokuapp.com/dropdown",
+        "enabledisableUrl": "https://formy-project.herokuapp.com/enabled",
+        "fileUploadUrl": "https://formy-project.herokuapp.com/fileupload",
+        "keyandmouseUrl":"https://formy-project.herokuapp.com/keypress",
+        "modalUrl":"https://formy-project.herokuapp.com/modal",
+        "pagescrollUrl":"https://formy-project.herokuapp.com/scroll",
+        "radiobuttonUrl":"https://formy-project.herokuapp.com/radiobutton",
+        "switchwindowUrl":"https://formy-project.herokuapp.com/switch-window",
+        "webformUrl":"https://formy-project.herokuapp.com/form"
+        
+    }
+
+}
+  
