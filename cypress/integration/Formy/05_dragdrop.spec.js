@@ -1,3 +1,9 @@
+/*
+Instruction:
+Step 1: Run in terminal (npm install --save-dev @4tw/cypress-drag-drop)
+Step 2: import '@4tw/cypress-drag-drop';
+*/ 
+
 ///<reference types = 'cypress'/>
 import '@4tw/cypress-drag-drop'
 import DragdropPO from '../../support/page_objects/DragdropPO';
@@ -7,7 +13,7 @@ describe('Drag and Drop Area',()=>{
         cy.visit(Cypress.env('draganddropUrl'));
     })
     
-      it('should drag ice cream to the order', () => {
+      it('Drag and drop should be succesful', () => {
         const dragdropo = new DragdropPO();
         dragdropo.draganddrop();
       });
