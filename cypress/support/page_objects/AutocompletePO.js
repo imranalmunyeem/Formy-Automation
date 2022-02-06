@@ -60,9 +60,5 @@ class AutocompletePO{
         countryField.type(country);
         return this;
     }
-
-
-
-
 }
 export default AutocompletePO;

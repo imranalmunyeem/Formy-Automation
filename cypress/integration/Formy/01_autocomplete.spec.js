@@ -3,7 +3,7 @@
 import AutocompletePO from "../../support/page_objects/AutocompletePO";
 
 describe('Auto Complete',()=>{
-    it('Navigate to the Auto Complete page',()=>{
+    beforeEach('Navigate to the Auto Complete page',()=>{
         cy.visit(Cypress.env('autocompleteUrl'));
         cy.url().should('include','autocomplete');
     })
