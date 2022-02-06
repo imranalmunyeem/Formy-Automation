@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.4.1"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.1.0"
   }
 }
