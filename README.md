@@ -1,5 +1,4 @@
-# Project Name: Nopcommerce
-This is a complete ecommerce website UI automation project by Imran Al Munyeem
+# Project Name: Formy
 
 # Project Description
 This website contains different functionalities like Autocomplete, button, date, checkbox, drag and drop, dropdown, file upload, enable disable, key-mousehandle, modal, page scroll, radio button, switch window, and webform.
