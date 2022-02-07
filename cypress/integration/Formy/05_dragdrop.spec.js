@@ -5,7 +5,7 @@ Step 2: import '@4tw/cypress-drag-drop';
 */ 
 
 ///<reference types = 'cypress'/>
-import '@4tw/cypress-drag-drop'
+
 import DragdropPO from '../../support/page_objects/DragdropPO';
 
 describe('Drag and Drop Area',()=>{

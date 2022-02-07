@@ -1,20 +1,20 @@
 class RadiobuttonsPO{
     radioButton1(){
-        const button1 = cy.get(':nth-child(4) > .form-check-label');
+        const button1 = cy.get('[type="radio"]');
         button1.should('be.visible');
-        button1.click();
+        button1.check('option1');
     }
 
     radioButton2(){;
-        const button2 = cy.get(':nth-child(6) > .form-check-label');
+        const button2 = cy.get('[type="radio"]');
         button2.should('be.visible');
-        button2.click();
+        button2.check('option2');
 }
 
     radioButton3(){
-        const button3 = cy.get(':nth-child(8) > .form-check-label');
+        const button3 = cy.get('[type="radio"]');
         button3.should('be.visible');
-        button3.click();
+        button3.check('option3');
     }
 }
 export default RadiobuttonsPO;
