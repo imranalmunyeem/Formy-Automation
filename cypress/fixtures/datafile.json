@@ -1,0 +1,10 @@
+{
+  "address": "Test Adress",
+  "streetaddress": "Test Street Adress",
+  "streetaddress2": "Test Street Adress 2",
+  "city": "Test city",
+  "state": "Test State",
+  "zipcode": "Test Zipcode",
+  "country": "Test Country"
+
+}

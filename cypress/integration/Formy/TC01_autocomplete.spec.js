@@ -6,6 +6,7 @@ describe('Auto Complete',()=>{
     beforeEach('Navigate to the Auto Complete page',()=>{
         cy.visit(Cypress.env('autocompleteUrl'));
         cy.url().should('include','autocomplete');
+
     })
 
     it('Verify Autocomplete Form header',()=>{
@@ -14,13 +15,14 @@ describe('Auto Complete',()=>{
 
     it('Fill up Autocomplete Form',()=>{
         const autocompletepo = new AutocompletePO();
-        autocompletepo.inputAddress('Test');
-        autocompletepo.inputStreetAddress('Test Street');
-        autocompletepo.inputStreetAddress2('Test Street 2');
-        autocompletepo.inputCity('Test City');
-        autocompletepo.inputState('Test State');
-        autocompletepo.inputZipCode('1234');
-        autocompletepo.inputCountry('Test Country');
+        cy.datadriven();
+        autocompletepo.inputAddress(this.data.address);
+        autocompletepo.inputStreetAddress(this.data.streetaddress);
+        autocompletepo.inputStreetAddress2(this.data.streetaddress2);
+        autocompletepo.inputCity(this.data.city);
+        autocompletepo.inputState(this.data.state);
+        autocompletepo.inputZipCode(this.data.zipcode);
+        autocompletepo.inputCountry(this.data.country);
 
     })
     })

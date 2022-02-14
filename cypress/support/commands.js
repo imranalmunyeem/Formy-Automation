@@ -19,3 +19,11 @@ Cypress.Commands.add('uploadfile', () => {
     });
         //Reset
        // cy.get(':nth-child(3) > .btn').click();
+
+
+//------------------------------------------------DATA DRIVEN---------------------------------------------------//
+Cypress.Commands.add('datadriven',()=>{
+cy.fixture('datafile').then(function(data){
+    this.data = data;
+})
+})
