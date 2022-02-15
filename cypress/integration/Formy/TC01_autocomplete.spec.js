@@ -6,7 +6,10 @@ describe('Auto Complete',()=>{
     beforeEach('Navigate to the Auto Complete page',()=>{
         cy.visit(Cypress.env('autocompleteUrl'));
         cy.url().should('include','autocomplete');
-
+            cy.fixture('datafile').then(function(datafile){
+                this.datafile = datafile;
+            })
+            
     })
 
     it('Verify Autocomplete Form header',()=>{
@@ -15,8 +18,7 @@ describe('Auto Complete',()=>{
 
     it('Fill up Autocomplete Form',()=>{
         const autocompletepo = new AutocompletePO();
-        cy.datadriven();
-        autocompletepo.inputAddress(this.data.address);
+        autocompletepo.inputAddress(this.datafile.address);
         autocompletepo.inputStreetAddress(this.data.streetaddress);
         autocompletepo.inputStreetAddress2(this.data.streetaddress2);
         autocompletepo.inputCity(this.data.city);
