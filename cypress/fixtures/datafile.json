@@ -1,6 +1,6 @@
 {
-  "address": "Test Adress",
-  "streetaddress": "Test Street Adress",
+  "firstName": "Test Adress",
+  "lasttName": "Test Street Adress",
   "streetaddress2": "Test Street Adress 2",
   "city": "Test city",
   "state": "Test State",

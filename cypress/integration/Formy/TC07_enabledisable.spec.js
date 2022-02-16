@@ -14,4 +14,6 @@ describe('Enable and Disable',()=>{
         enabledisablepo.checkEnableInputBox();
 
     })
+    cy.log('Test has completed');
+
 })

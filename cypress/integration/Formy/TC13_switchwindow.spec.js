@@ -14,4 +14,6 @@ describe('Switch window area',()=>{
         cy.get('.container').parents(); 
         switchwindowpo.openAlert();
     })
+    cy.log('Test has completed');
+
 })

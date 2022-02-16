@@ -45,4 +45,6 @@ describe('Checkbox Area',()=>{
             checkboxpo.uncheckOnbox3();
         })
     })
+    cy.log('Test has completed');
+
 })

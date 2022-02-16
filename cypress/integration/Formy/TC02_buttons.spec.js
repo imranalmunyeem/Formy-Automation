@@ -20,5 +20,7 @@ describe('Button Area',()=>{
         buttonspo.clickOnRight();
         buttonspo.clickOn1();
         buttonspo.clickOn2();
+        cy.log('Test has completed');
+
     })
 })

@@ -13,4 +13,6 @@ describe('Date Picker',()=>{
         datepickerpo.datepicker('25/12/1995');
 
     })  
+    cy.log('Test has completed');
+
 })

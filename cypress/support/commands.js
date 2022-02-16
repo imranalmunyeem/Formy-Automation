@@ -22,8 +22,3 @@ Cypress.Commands.add('uploadfile', () => {
 
 
 //------------------------------------------------DATA DRIVEN---------------------------------------------------//
-Cypress.Commands.add('datadriven',()=>{
-cy.fixture('datafile').then(function(datafile){
-    this.datafile = datafile;
-})
-})

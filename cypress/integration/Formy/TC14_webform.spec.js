@@ -1,7 +1,7 @@
 ///<reference types = 'cypress'/>
 
 import WebformPO from "../../support/page_objects/WebformPO";
-
+const webformpo = new WebformPO();
 describe('Webform area',()=>{
     beforeEach('Navigate to the website',()=>{
         cy.visit(Cypress.env('webformUrl'));
@@ -9,9 +9,8 @@ describe('Webform area',()=>{
     })
 
     it('Fill up the web form',()=>{
-        const webformpo = new WebformPO();
-        webformpo.inputFirstName('Automation');
-        webformpo.inputLasttName('Tester');
+        webformpo.inputFirstName('Test First Name');
+        webformpo.inputLasttName('Test Last Name');
         webformpo.inputJobTitle('Test Engineer');
         webformpo.selectHighSchool();
         webformpo.selectCollege();
@@ -29,5 +28,8 @@ describe('Webform area',()=>{
         webformpo.selectDate('25/12/1995');
         webformpo.clickOnSubmit();
         webformpo.submissionAlert();
+
     })
+    cy.log('Test has completed');
+
 })

@@ -10,4 +10,6 @@ describe('Page Scroll area',()=>{
        // cy.get('h1').scrollTo('form > :nth-child(2) > :nth-child(2)') // Scroll 'sidebar' to its bottom
 
     })
+    cy.log('Test has completed');
+
 })

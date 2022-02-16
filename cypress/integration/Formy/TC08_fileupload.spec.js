@@ -21,5 +21,7 @@ describe('File upload area',()=>{
         cy.get('#file-upload-field').attachFile(fixtureFile);
         */
     })
+    cy.log('Test has completed');
+
 
 })

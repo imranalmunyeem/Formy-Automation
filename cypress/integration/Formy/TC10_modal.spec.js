@@ -15,4 +15,6 @@ describe('Modal area',()=>{
         modalpo.clickOnClose();
 
     })
+    cy.log('Test has completed');
+
 })

@@ -14,4 +14,6 @@ describe('Keyboard and Mouse Input area',()=>{
         Keymousepo.clickOnButton();
 
     })
+    cy.log('Test has completed');
+
 })

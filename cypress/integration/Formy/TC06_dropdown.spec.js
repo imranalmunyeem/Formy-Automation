@@ -13,4 +13,6 @@ describe('Dropdown Area',()=>{
         dropdownpo.clickOnDropdown();
 
     })
+    cy.log('Test has completed');
+
 })
