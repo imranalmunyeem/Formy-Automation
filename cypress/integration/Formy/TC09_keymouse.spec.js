@@ -12,8 +12,8 @@ describe('Keyboard and Mouse Input area',()=>{
         const Keymousepo = new KeymousePO();
         Keymousepo.enterFullname('Automation Tester');
         Keymousepo.clickOnButton();
-
+        cy.log('Test has completed');
     })
-    cy.log('Test has completed');
+    
 
 })

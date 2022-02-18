@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-18T14:48:34.889Z",
+    "end": "2022-02-18T14:48:46.858Z",
+    "duration": 11969,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6ef85934-8f5f-40b4-918d-5b0bbdb55241",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC09_keymouse.spec.js",
+      "file": "cypress/integration/Formy/TC09_keymouse.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "86c4169f-80b1-4ec9-958c-7a63ff955f9d",
+          "title": "Keyboard and Mouse Input area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Key and Mouse functions should be worked properly",
+              "fullTitle": "Keyboard and Mouse Input area Key and Mouse functions should be worked properly",
+              "timedOut": null,
+              "duration": 11950,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const Keymousepo = new _KeymousePO.default();\nKeymousepo.enterFullname('Automation Tester');\nKeymousepo.clickOnButton();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "da1757e0-b607-47e0-98fa-b7690f57b6cb",
+              "parentUUID": "86c4169f-80b1-4ec9-958c-7a63ff955f9d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "da1757e0-b607-47e0-98fa-b7690f57b6cb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11950,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

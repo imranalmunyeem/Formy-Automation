@@ -11,8 +11,9 @@ describe('Date Picker',()=>{
     it('Pick the date',()=>{
         const datepickerpo = new DatepickerPO();
         datepickerpo.datepicker('25/12/1995');
+        cy.log('Test has completed');
 
     })  
-    cy.log('Test has completed');
+    
 
 })

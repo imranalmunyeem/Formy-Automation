@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-18T14:46:27.581Z",
+    "end": "2022-02-18T14:46:37.435Z",
+    "duration": 9854,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4a7d644b-b330-45d9-ae7f-c48d390f05c9",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC01_autocomplete.spec.js",
+      "file": "cypress/integration/Formy/TC01_autocomplete.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "494417cd-443a-439b-80d2-378059c4d7fd",
+          "title": "Auto Complete",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Autocomplete Form header",
+              "fullTitle": "Auto Complete Verify Autocomplete Form header",
+              "timedOut": null,
+              "duration": 9834,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//const autocompletepo = new AutocompletePO();\nautocompletepo.headerVerify();\nit('Fill up Autocomplete Form', () => {\n  // const autocompletepo = new AutocompletePO();\n  autocompletepo.inputAddress('Test Address');\n  autocompletepo.inputStreetAddress('Test Street Address');\n  autocompletepo.inputStreetAddress2('Test Street Address 2');\n  autocompletepo.inputCity('Test City');\n  autocompletepo.inputState('Test State');\n  autocompletepo.inputZipCode('Test Zip Code');\n  autocompletepo.inputCountry('Test Country');\n  cy.log('Test has completed');\n});",
+              "err": {},
+              "uuid": "763472a3-51ed-405c-9c8d-498974f17eaa",
+              "parentUUID": "494417cd-443a-439b-80d2-378059c4d7fd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "763472a3-51ed-405c-9c8d-498974f17eaa"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9834,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

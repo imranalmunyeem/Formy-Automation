@@ -14,14 +14,14 @@ describe('File upload area',()=>{
 
     it('Uploading a file should be successfull',()=>{
         cy.uploadfile();  //Running from custom command
-        
+        cy.log('Test has completed');
         /* Altertnativ way:
         const fixtureFile = 'car.jpg';
         cy.get(':nth-child(1) > .btn').invoke('removeAttr', 'target').click({force:true})
         cy.get('#file-upload-field').attachFile(fixtureFile);
         */
     })
-    cy.log('Test has completed');
+    
 
 
 })

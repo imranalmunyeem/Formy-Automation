@@ -43,8 +43,9 @@ describe('Checkbox Area',()=>{
         it('Unchecking on box 3 should be successfull',()=>{
             const checkboxpo = new CheckboxPO();
             checkboxpo.uncheckOnbox3();
+            cy.log('Test has completed');
         })
     })
-    cy.log('Test has completed');
+    
 
 })

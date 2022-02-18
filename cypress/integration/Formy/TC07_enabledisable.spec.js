@@ -12,8 +12,8 @@ describe('Enable and Disable',()=>{
         const enabledisablepo = new EnabledisablePO();
         enabledisablepo.checkDisableInputBox();
         enabledisablepo.checkEnableInputBox();
-
+        cy.log('Test has completed');
     })
-    cy.log('Test has completed');
+    
 
 })

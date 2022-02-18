@@ -28,8 +28,9 @@ describe('Webform area',()=>{
         webformpo.selectDate('25/12/1995');
         webformpo.clickOnSubmit();
         webformpo.submissionAlert();
+        cy.log('Test has completed');
 
     })
-    cy.log('Test has completed');
+    
 
 })

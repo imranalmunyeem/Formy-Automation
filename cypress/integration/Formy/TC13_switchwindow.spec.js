@@ -13,7 +13,8 @@ describe('Switch window area',()=>{
         switchwindowpo.openNewTab();
         cy.get('.container').parents(); 
         switchwindowpo.openAlert();
+        cy.log('Test has completed');
     })
-    cy.log('Test has completed');
+    
 
 })

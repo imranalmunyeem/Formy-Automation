@@ -1,0 +1,1015 @@
+{
+  "stats": {
+    "suites": 14,
+    "tests": 19,
+    "passes": 19,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-18T14:46:27.581Z",
+    "end": "2022-02-18T14:49:58.676Z",
+    "duration": 172806,
+    "testsRegistered": 19,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0eb07610-aff7-4815-80ea-4aad249b3dfb",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC02_buttons.spec.js",
+      "file": "cypress/integration/Formy/TC02_buttons.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "51d11eb5-9df8-4204-aaa7-749cb7658b87",
+          "title": "Button Area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Click on the different buttons should be successful",
+              "fullTitle": "Button Area Click on the different buttons should be successful",
+              "timedOut": null,
+              "duration": 8366,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const buttonspo = new _ButtonsPO.default();\nbuttonspo.clickOnPrimary();\nbuttonspo.clickOnSuccess();\nbuttonspo.clickOnInfo();\nbuttonspo.clickOnWarning();\nbuttonspo.clickOnDanger();\nbuttonspo.clickOnLink();\nbuttonspo.clickOnLeft();\nbuttonspo.clickOnMiddle();\nbuttonspo.clickOnRight();\nbuttonspo.clickOn1();\nbuttonspo.clickOn2();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "fe87100e-783d-442f-a595-29017c90409a",
+              "parentUUID": "51d11eb5-9df8-4204-aaa7-749cb7658b87",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fe87100e-783d-442f-a595-29017c90409a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8366,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "105f0dfc-ab0d-4fca-b966-b27d67dfddf6",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC03_checkbox.spec.js",
+      "file": "cypress/integration/Formy/TC03_checkbox.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "57524cdc-6a30-411c-a498-bdb62bdb7e46",
+          "title": "Checkbox Area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "6547540e-ebd8-402e-b26b-70145a089192",
+              "title": "Chekbox 1",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Checking on box 1 should be successfull",
+                  "fullTitle": "Checkbox Area Chekbox 1 Checking on box 1 should be successfull",
+                  "timedOut": null,
+                  "duration": 16118,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const checkboxpo = new _CheckboxPO.default();\ncheckboxpo.checkOnbox1();",
+                  "err": {},
+                  "uuid": "fa492f20-e248-419a-a311-1674690afcab",
+                  "parentUUID": "6547540e-ebd8-402e-b26b-70145a089192",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Unchecking on box 1 should be successfull",
+                  "fullTitle": "Checkbox Area Chekbox 1 Unchecking on box 1 should be successfull",
+                  "timedOut": null,
+                  "duration": 508,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const checkboxpo = new _CheckboxPO.default();\ncheckboxpo.uncheckOnbox1();",
+                  "err": {},
+                  "uuid": "031e089d-72a9-4fbc-8b6b-34ac2452e303",
+                  "parentUUID": "6547540e-ebd8-402e-b26b-70145a089192",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "fa492f20-e248-419a-a311-1674690afcab",
+                "031e089d-72a9-4fbc-8b6b-34ac2452e303"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 16626,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "d71b91d6-ffbd-4982-8731-509858832bf4",
+              "title": "Chekbox 2",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Checking on box 2 should be successfull",
+                  "fullTitle": "Checkbox Area Chekbox 2 Checking on box 2 should be successfull",
+                  "timedOut": null,
+                  "duration": 560,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const checkboxpo = new _CheckboxPO.default();\ncheckboxpo.checkOnbox2();",
+                  "err": {},
+                  "uuid": "6e2bf275-aef5-415d-8920-1920f8ca7353",
+                  "parentUUID": "d71b91d6-ffbd-4982-8731-509858832bf4",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Unchecking on box 2 should be successfull",
+                  "fullTitle": "Checkbox Area Chekbox 2 Unchecking on box 2 should be successfull",
+                  "timedOut": null,
+                  "duration": 549,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const checkboxpo = new _CheckboxPO.default();\ncheckboxpo.uncheckOnbox2();",
+                  "err": {},
+                  "uuid": "2327e3cb-a4a3-48ff-a2b0-b09dc1bba770",
+                  "parentUUID": "d71b91d6-ffbd-4982-8731-509858832bf4",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "6e2bf275-aef5-415d-8920-1920f8ca7353",
+                "2327e3cb-a4a3-48ff-a2b0-b09dc1bba770"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1109,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "fb633a22-90b7-4689-a344-f8517fbcd328",
+              "title": "Checkbox 3",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Checking on box 3 should be successfull",
+                  "fullTitle": "Checkbox Area Checkbox 3 Checking on box 3 should be successfull",
+                  "timedOut": null,
+                  "duration": 548,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const checkboxpo = new _CheckboxPO.default();\ncheckboxpo.checkOnbox3();",
+                  "err": {},
+                  "uuid": "de0e5050-48e7-4803-b938-06f7cc932eaa",
+                  "parentUUID": "fb633a22-90b7-4689-a344-f8517fbcd328",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Unchecking on box 3 should be successfull",
+                  "fullTitle": "Checkbox Area Checkbox 3 Unchecking on box 3 should be successfull",
+                  "timedOut": null,
+                  "duration": 486,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const checkboxpo = new _CheckboxPO.default();\ncheckboxpo.uncheckOnbox3();\ncy.log('Test has completed');",
+                  "err": {},
+                  "uuid": "57189623-c21b-4715-b33f-e1e2efce5f5d",
+                  "parentUUID": "fb633a22-90b7-4689-a344-f8517fbcd328",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "de0e5050-48e7-4803-b938-06f7cc932eaa",
+                "57189623-c21b-4715-b33f-e1e2efce5f5d"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1034,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "03faf4ad-b780-4a94-b1c9-038d21eb144d",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC04_datepicker.spec.js",
+      "file": "cypress/integration/Formy/TC04_datepicker.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "76afdaf0-70e5-4525-8ecd-f9c74aadcb31",
+          "title": "Date Picker",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Pick the date",
+              "fullTitle": "Date Picker Pick the date",
+              "timedOut": null,
+              "duration": 21597,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const datepickerpo = new _DatepickerPO.default();\ndatepickerpo.datepicker('25/12/1995');\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "a2fdaeae-840c-48da-831c-5067d44e0f53",
+              "parentUUID": "76afdaf0-70e5-4525-8ecd-f9c74aadcb31",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a2fdaeae-840c-48da-831c-5067d44e0f53"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21597,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d7fec890-fdad-4f30-95b5-98bab7bacbae",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC05_dragdrop.spec.js",
+      "file": "cypress/integration/Formy/TC05_dragdrop.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f642b718-a524-437c-9caa-a4823fb9aa10",
+          "title": "Drag and Drop Area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Drag and drop should be succesful",
+              "fullTitle": "Drag and Drop Area Drag and drop should be succesful",
+              "timedOut": null,
+              "duration": 10080,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const dragdropo = new _DragdropPO.default();\ndragdropo.draganddrop();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "fd5f5ce1-5e93-465c-a368-eef20ed48e26",
+              "parentUUID": "f642b718-a524-437c-9caa-a4823fb9aa10",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fd5f5ce1-5e93-465c-a368-eef20ed48e26"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10080,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "726f8ba0-42d4-4d44-9b14-abc96f565739",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC06_dropdown.spec.js",
+      "file": "cypress/integration/Formy/TC06_dropdown.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6a9209df-3525-402c-8229-4247cab2886d",
+          "title": "Dropdown Area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Dropdown",
+              "fullTitle": "Dropdown Area Dropdown",
+              "timedOut": null,
+              "duration": 8814,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const dropdownpo = new _DropdownPO.default();\ndropdownpo.clickOnDropdown();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "56ecced4-3813-4641-86cf-5315ae4330d0",
+              "parentUUID": "6a9209df-3525-402c-8229-4247cab2886d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "56ecced4-3813-4641-86cf-5315ae4330d0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8814,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "f985732c-95d0-4583-89b2-db0aa53d3a6c",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC07_enabledisable.spec.js",
+      "file": "cypress/integration/Formy/TC07_enabledisable.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a66dd0ed-3d74-4cca-a9d2-de8e2cd3b267",
+          "title": "Enable and Disable",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Enable and Disable should be worked properly",
+              "fullTitle": "Enable and Disable Enable and Disable should be worked properly",
+              "timedOut": null,
+              "duration": 12763,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const enabledisablepo = new _EnabledisablePO.default();\nenabledisablepo.checkDisableInputBox();\nenabledisablepo.checkEnableInputBox();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "ca1e37be-d045-4f83-a68a-de3381a0c2db",
+              "parentUUID": "a66dd0ed-3d74-4cca-a9d2-de8e2cd3b267",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ca1e37be-d045-4f83-a68a-de3381a0c2db"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12763,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d2b9556f-238a-4942-98c6-961ef63427ed",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC08_fileupload.spec.js",
+      "file": "cypress/integration/Formy/TC08_fileupload.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9a443e24-1361-4c92-9123-0370234d2536",
+          "title": "File upload area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Uploading a file should be successfull",
+              "fullTitle": "File upload area Uploading a file should be successfull",
+              "timedOut": null,
+              "duration": 12888,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.uploadfile(); //Running from custom command\ncy.log('Test has completed');\n/* Altertnativ way:\nconst fixtureFile = 'car.jpg';\ncy.get(':nth-child(1) > .btn').invoke('removeAttr', 'target').click({force:true})\ncy.get('#file-upload-field').attachFile(fixtureFile);\n*/",
+              "err": {},
+              "uuid": "90c6801e-8443-4b9b-99ea-7e702e6a5f7d",
+              "parentUUID": "9a443e24-1361-4c92-9123-0370234d2536",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "90c6801e-8443-4b9b-99ea-7e702e6a5f7d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12888,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "6ef85934-8f5f-40b4-918d-5b0bbdb55241",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC09_keymouse.spec.js",
+      "file": "cypress/integration/Formy/TC09_keymouse.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "86c4169f-80b1-4ec9-958c-7a63ff955f9d",
+          "title": "Keyboard and Mouse Input area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Key and Mouse functions should be worked properly",
+              "fullTitle": "Keyboard and Mouse Input area Key and Mouse functions should be worked properly",
+              "timedOut": null,
+              "duration": 11950,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const Keymousepo = new _KeymousePO.default();\nKeymousepo.enterFullname('Automation Tester');\nKeymousepo.clickOnButton();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "da1757e0-b607-47e0-98fa-b7690f57b6cb",
+              "parentUUID": "86c4169f-80b1-4ec9-958c-7a63ff955f9d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "da1757e0-b607-47e0-98fa-b7690f57b6cb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11950,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "95f625d5-a3e8-4242-97e2-488fde8f3e86",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC10_modal.spec.js",
+      "file": "cypress/integration/Formy/TC10_modal.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f2e02720-347f-4672-992f-2c9acfa5ea89",
+          "title": "Modal area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Modal should be visible",
+              "fullTitle": "Modal area Modal should be visible",
+              "timedOut": null,
+              "duration": 11695,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const modalpo = new _ModalPO.default();\nmodalpo.openModal();\nmodalpo.clickOnOk();\nmodalpo.clickOnClose();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "2bdec6dd-044d-42fa-b435-6190c3c6935b",
+              "parentUUID": "f2e02720-347f-4672-992f-2c9acfa5ea89",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2bdec6dd-044d-42fa-b435-6190c3c6935b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11695,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d63ee4d6-522e-4195-a5d7-f2f031873be5",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC11_pagescroll.spec.js",
+      "file": "cypress/integration/Formy/TC11_pagescroll.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0df5fc37-3b73-4873-9691-78180e8c7f7a",
+          "title": "Page Scroll area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Scrolling page should be successful",
+              "fullTitle": "Page Scroll area Scrolling page should be successful",
+              "timedOut": null,
+              "duration": 8103,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.scrollTo(0, 700); // Scroll the window 500px down\n// cy.get('h1').scrollTo('form > :nth-child(2) > :nth-child(2)') // Scroll 'sidebar' to its bottom\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "4958a372-fea8-468a-becf-fbe44b9f5e8d",
+              "parentUUID": "0df5fc37-3b73-4873-9691-78180e8c7f7a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4958a372-fea8-468a-becf-fbe44b9f5e8d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8103,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "e1c7ddc8-7886-41f0-89e8-273914e7ef31",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC12_radiobutton.spec.js",
+      "file": "cypress/integration/Formy/TC12_radiobutton.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f3a39108-7e5e-499e-9bee-76c775c1ded5",
+          "title": "Radio button area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Radio Button should be worked successfully",
+              "fullTitle": "Radio button area Radio Button should be worked successfully",
+              "timedOut": null,
+              "duration": 8965,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const radiobuttonpo = new _RadiobuttonsPO.default();\nradiobuttonpo.radioButton3();\nradiobuttonpo.radioButton2();\nradiobuttonpo.radioButton1();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "713d8b05-1c13-4c45-a685-22d3f996a404",
+              "parentUUID": "f3a39108-7e5e-499e-9bee-76c775c1ded5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "713d8b05-1c13-4c45-a685-22d3f996a404"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8965,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "66cedf6f-5dc7-4d16-b50c-702ec1d0123e",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC13_switchwindow.spec.js",
+      "file": "cypress/integration/Formy/TC13_switchwindow.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ff345db5-4a8d-447f-bfa8-674a5e10495d",
+          "title": "Switch window area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Switching window should be successful",
+              "fullTitle": "Switch window area Switching window should be successful",
+              "timedOut": null,
+              "duration": 9107,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const switchwindowpo = new _SwitchwindowPO.default();\nswitchwindowpo.openNewTab();\ncy.get('.container').parents();\nswitchwindowpo.openAlert();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "a236b5a7-c242-47fe-bfc7-51b0585d6006",
+              "parentUUID": "ff345db5-4a8d-447f-bfa8-674a5e10495d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a236b5a7-c242-47fe-bfc7-51b0585d6006"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9107,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "cac4577f-5701-4db4-90e6-b4721ec4904a",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC14_webform.spec.js",
+      "file": "cypress/integration/Formy/TC14_webform.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "830c3d36-3e3b-4e8b-af28-02ac0da2bcd2",
+          "title": "Webform area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Fill up the web form",
+              "fullTitle": "Webform area Fill up the web form",
+              "timedOut": null,
+              "duration": 19875,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "webformpo.inputFirstName('Test First Name');\nwebformpo.inputLasttName('Test Last Name');\nwebformpo.inputJobTitle('Test Engineer');\nwebformpo.selectHighSchool();\nwebformpo.selectCollege();\nwebformpo.selectGradSchool();\nwebformpo.checkMale();\nwebformpo.uncheckMale();\nwebformpo.checkFemale();\nwebformpo.uncheckFemale();\nwebformpo.checkPreferNotToSay();\nwebformpo.uncheckPreferNotToSay();\nwebformpo.select0to1YearOfExperience();\nwebformpo.select2to4YearOfExperience();\nwebformpo.select5to9YearOfExperience();\nwebformpo.select10YearOfExperience();\nwebformpo.selectDate('25/12/1995');\nwebformpo.clickOnSubmit();\nwebformpo.submissionAlert();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "17b0bf00-b7ce-413b-85c0-4b24c2cd4cf2",
+              "parentUUID": "830c3d36-3e3b-4e8b-af28-02ac0da2bcd2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "17b0bf00-b7ce-413b-85c0-4b24c2cd4cf2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 19875,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "4a7d644b-b330-45d9-ae7f-c48d390f05c9",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC01_autocomplete.spec.js",
+      "file": "cypress/integration/Formy/TC01_autocomplete.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "494417cd-443a-439b-80d2-378059c4d7fd",
+          "title": "Auto Complete",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Autocomplete Form header",
+              "fullTitle": "Auto Complete Verify Autocomplete Form header",
+              "timedOut": null,
+              "duration": 9834,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//const autocompletepo = new AutocompletePO();\nautocompletepo.headerVerify();\nit('Fill up Autocomplete Form', () => {\n  // const autocompletepo = new AutocompletePO();\n  autocompletepo.inputAddress('Test Address');\n  autocompletepo.inputStreetAddress('Test Street Address');\n  autocompletepo.inputStreetAddress2('Test Street Address 2');\n  autocompletepo.inputCity('Test City');\n  autocompletepo.inputState('Test State');\n  autocompletepo.inputZipCode('Test Zip Code');\n  autocompletepo.inputCountry('Test Country');\n  cy.log('Test has completed');\n});",
+              "err": {},
+              "uuid": "763472a3-51ed-405c-9c8d-498974f17eaa",
+              "parentUUID": "494417cd-443a-439b-80d2-378059c4d7fd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "763472a3-51ed-405c-9c8d-498974f17eaa"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9834,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

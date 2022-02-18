@@ -16,7 +16,8 @@ describe('Drag and Drop Area',()=>{
       it('Drag and drop should be succesful', () => {
         const dragdropo = new DragdropPO();
         dragdropo.draganddrop();
+        cy.log('Test has completed');
+
       });
-      cy.log('Test has completed');
 
 })

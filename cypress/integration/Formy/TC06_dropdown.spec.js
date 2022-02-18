@@ -11,8 +11,8 @@ describe('Dropdown Area',()=>{
     it('Dropdown',()=>{
         const dropdownpo = new DropdownPO();
         dropdownpo.clickOnDropdown();
-
+        cy.log('Test has completed');
     })
-    cy.log('Test has completed');
+    
 
 })

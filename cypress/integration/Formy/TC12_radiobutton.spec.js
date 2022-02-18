@@ -13,7 +13,8 @@ describe('Radio button area',()=>{
        radiobuttonpo.radioButton3();
        radiobuttonpo.radioButton2();
        radiobuttonpo.radioButton1();
+       cy.log('Test has completed');
     })
-    cy.log('Test has completed');
+    
 
 })

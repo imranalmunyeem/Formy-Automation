@@ -13,8 +13,8 @@ describe('Modal area',()=>{
         modalpo.openModal();
         modalpo.clickOnOk();
         modalpo.clickOnClose();
-
+        cy.log('Test has completed');
     })
-    cy.log('Test has completed');
+    
 
 })

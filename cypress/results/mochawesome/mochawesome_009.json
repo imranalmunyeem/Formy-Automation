@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-18T14:48:49.620Z",
+    "end": "2022-02-18T14:49:01.338Z",
+    "duration": 11718,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "95f625d5-a3e8-4242-97e2-488fde8f3e86",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC10_modal.spec.js",
+      "file": "cypress/integration/Formy/TC10_modal.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f2e02720-347f-4672-992f-2c9acfa5ea89",
+          "title": "Modal area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Modal should be visible",
+              "fullTitle": "Modal area Modal should be visible",
+              "timedOut": null,
+              "duration": 11695,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const modalpo = new _ModalPO.default();\nmodalpo.openModal();\nmodalpo.clickOnOk();\nmodalpo.clickOnClose();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "2bdec6dd-044d-42fa-b435-6190c3c6935b",
+              "parentUUID": "f2e02720-347f-4672-992f-2c9acfa5ea89",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2bdec6dd-044d-42fa-b435-6190c3c6935b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11695,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

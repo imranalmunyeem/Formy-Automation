@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-18T14:49:38.753Z",
+    "end": "2022-02-18T14:49:58.676Z",
+    "duration": 19923,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cac4577f-5701-4db4-90e6-b4721ec4904a",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC14_webform.spec.js",
+      "file": "cypress/integration/Formy/TC14_webform.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "830c3d36-3e3b-4e8b-af28-02ac0da2bcd2",
+          "title": "Webform area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Fill up the web form",
+              "fullTitle": "Webform area Fill up the web form",
+              "timedOut": null,
+              "duration": 19875,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "webformpo.inputFirstName('Test First Name');\nwebformpo.inputLasttName('Test Last Name');\nwebformpo.inputJobTitle('Test Engineer');\nwebformpo.selectHighSchool();\nwebformpo.selectCollege();\nwebformpo.selectGradSchool();\nwebformpo.checkMale();\nwebformpo.uncheckMale();\nwebformpo.checkFemale();\nwebformpo.uncheckFemale();\nwebformpo.checkPreferNotToSay();\nwebformpo.uncheckPreferNotToSay();\nwebformpo.select0to1YearOfExperience();\nwebformpo.select2to4YearOfExperience();\nwebformpo.select5to9YearOfExperience();\nwebformpo.select10YearOfExperience();\nwebformpo.selectDate('25/12/1995');\nwebformpo.clickOnSubmit();\nwebformpo.submissionAlert();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "17b0bf00-b7ce-413b-85c0-4b24c2cd4cf2",
+              "parentUUID": "830c3d36-3e3b-4e8b-af28-02ac0da2bcd2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "17b0bf00-b7ce-413b-85c0-4b24c2cd4cf2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 19875,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

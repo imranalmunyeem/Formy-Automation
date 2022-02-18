@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-18T14:49:26.946Z",
+    "end": "2022-02-18T14:49:36.086Z",
+    "duration": 9140,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "66cedf6f-5dc7-4d16-b50c-702ec1d0123e",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC13_switchwindow.spec.js",
+      "file": "cypress/integration/Formy/TC13_switchwindow.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ff345db5-4a8d-447f-bfa8-674a5e10495d",
+          "title": "Switch window area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Switching window should be successful",
+              "fullTitle": "Switch window area Switching window should be successful",
+              "timedOut": null,
+              "duration": 9107,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const switchwindowpo = new _SwitchwindowPO.default();\nswitchwindowpo.openNewTab();\ncy.get('.container').parents();\nswitchwindowpo.openAlert();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "a236b5a7-c242-47fe-bfc7-51b0585d6006",
+              "parentUUID": "ff345db5-4a8d-447f-bfa8-674a5e10495d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a236b5a7-c242-47fe-bfc7-51b0585d6006"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9107,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

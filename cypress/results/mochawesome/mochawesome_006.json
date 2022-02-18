@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-18T14:48:03.251Z",
+    "end": "2022-02-18T14:48:16.043Z",
+    "duration": 12792,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f985732c-95d0-4583-89b2-db0aa53d3a6c",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC07_enabledisable.spec.js",
+      "file": "cypress/integration/Formy/TC07_enabledisable.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a66dd0ed-3d74-4cca-a9d2-de8e2cd3b267",
+          "title": "Enable and Disable",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Enable and Disable should be worked properly",
+              "fullTitle": "Enable and Disable Enable and Disable should be worked properly",
+              "timedOut": null,
+              "duration": 12763,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const enabledisablepo = new _EnabledisablePO.default();\nenabledisablepo.checkDisableInputBox();\nenabledisablepo.checkEnableInputBox();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "ca1e37be-d045-4f83-a68a-de3381a0c2db",
+              "parentUUID": "a66dd0ed-3d74-4cca-a9d2-de8e2cd3b267",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ca1e37be-d045-4f83-a68a-de3381a0c2db"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12763,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

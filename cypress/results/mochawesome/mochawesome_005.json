@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-18T14:47:51.573Z",
+    "end": "2022-02-18T14:48:00.406Z",
+    "duration": 8833,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "726f8ba0-42d4-4d44-9b14-abc96f565739",
+      "title": "",
+      "fullFile": "cypress/integration/Formy/TC06_dropdown.spec.js",
+      "file": "cypress/integration/Formy/TC06_dropdown.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6a9209df-3525-402c-8229-4247cab2886d",
+          "title": "Dropdown Area",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Dropdown",
+              "fullTitle": "Dropdown Area Dropdown",
+              "timedOut": null,
+              "duration": 8814,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const dropdownpo = new _DropdownPO.default();\ndropdownpo.clickOnDropdown();\ncy.log('Test has completed');",
+              "err": {},
+              "uuid": "56ecced4-3813-4641-86cf-5315ae4330d0",
+              "parentUUID": "6a9209df-3525-402c-8229-4247cab2886d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "56ecced4-3813-4641-86cf-5315ae4330d0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8814,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

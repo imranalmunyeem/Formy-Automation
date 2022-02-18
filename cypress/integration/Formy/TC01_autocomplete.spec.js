@@ -1,9 +1,9 @@
 ///<reference types = 'cypress'/>
 
 import AutocompletePO from "../../support/page_objects/AutocompletePO";
-
+const autocompletepo = new AutocompletePO();
 describe('Auto Complete',()=>{
-    const autocompletepo = new AutocompletePO();
+    
     beforeEach('Navigate to the Auto Complete page',()=>{
         cy.visit(Cypress.env('autocompleteUrl'));
         cy.url().should('include','autocomplete');
