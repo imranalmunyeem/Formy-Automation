@@ -84,7 +84,13 @@ step 5: Custom scripts (Not Mandatory): Paste them on "package.json" file
     "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
     "delete-merged-junit-report": "rm -rf cypress/results/junit/results.xml",
     "delete-all-results-files": "rm -rf cypress/results/* || true"
-    
+
+
+# Cypress Retry Installation
+>Step 1: Run this on terminal: npm install -D cypress-plugin-retries
+
+>Step 2 : At the top of cypress/support/index.js: require('cypress-plugin-retries')
+
 
 # All Custom Scripts
 To run custom scripts, open terminal and write "npm run script name"
